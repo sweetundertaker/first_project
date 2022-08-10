@@ -7,6 +7,6 @@ class Mage{
         echo "I cast my spell";
     }
 }
-$mage123 = new Mage;
-$mage123->magic();
+$mage = new Mage;
+$mage->magic();
 
