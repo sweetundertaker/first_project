@@ -8,15 +8,30 @@ echo $box[1] . PHP_EOL;
 echo $box['joys']. PHP_EOL;
 */
 
-class Human {
+class Man
+{
     public $name;
-
     public $age;
 
-    public function setName($name) {  // для чего мы указали в скобочках $name
-        $this->name = $name; //  для чего ипользуюется $this
+    public function setName($name)
+    {
+        $this->name = $name;
     }
-}
 
-//$var - Объект, экземпляр класса Human
-$var = new Human();
+    public function setAge($age)
+    {
+        $this->age = $age;
+    }
+
+}
+$human = new Man;
+$human->setName(Александр);
+$human->setAge(26);
+$human1 = new Man;
+$human1->setName(Никита);
+$human1->setAge(26);
+
+echo 'Привет, меня зовут ' . $human->name . PHP_EOL;
+echo 'Мне ' . $human->age . ' лет' . PHP_EOL;
+echo 'Привет, меня зовут ' . $human1->name . PHP_EOL;
+echo 'Мне ' . $human1->age . ' лет' . PHP_EOL;
