@@ -5,7 +5,7 @@
 $word = "julius";
 $key = 3;
 $codeWord = ' ';
-$discodeWord = ' ';
+$decodeWord = ' ';
 for ($i = 0; $i < strlen($word); $i++) {
     $symbol = ord($word[$i]) + $key;
     if ($symbol > 255) {
@@ -20,7 +20,7 @@ for ($i = 0; $i < strlen($codeWord); $i++) {
     if ($symbol < 255) {
         $symbol = 255 - $symbol;
     }
-    $discodeWord = $discodeWord . chr($symbol);
+    $decodeWord = $decodeWord . chr($symbol);
 }
-echo $discodeWord;
+echo $decodeWord;
 
