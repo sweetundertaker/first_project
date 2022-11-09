@@ -17,7 +17,7 @@ echo $codeWord;
 
 for ($i = 0; $i < strlen($codeWord); $i++) {
     $symbol = ord($codeWord[$i]) - $key;
-    if ($symbol < 255) {
+    if ($symbol < $key) {
         $symbol = 255 - $symbol;
     }
     $decodeWord = $decodeWord . chr($symbol);
