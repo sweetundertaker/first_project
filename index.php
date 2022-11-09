@@ -6,7 +6,7 @@ $list = [
     'd' => 'word b',
     'e' => 'word e',
 ]; //
-
+//dsadasnlkasdjhhjd
 $newList = array_flip($list); // Возьмите значения массива из пункта 3 предыдущего задания
 
 $newArray = array_values($newList); // с помощью одной из функций разбиения массива на ключи/значения и положите результат в новую переменную. (Выбрала array_values)
