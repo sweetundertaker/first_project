@@ -3,4 +3,3 @@
 $word = 'julius';
 $key = 'aaa';
 
-fdyt
