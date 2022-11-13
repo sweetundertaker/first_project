@@ -5,4 +5,4 @@ $sum = $firstNumber + $secondNumber;
 $subtraction = $firstNumber - $secondNumber;
 $multiplication = $firstNumber * $secondNumber;
 $division = $firstNumber / $secondNumber;
-echo $secondNumber;
+echo $sum;
